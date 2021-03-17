@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Casey Bement - Software Developer</title>
+      <link href="stylesheets/style.css" rel="stylesheet">
+      <link href="http://fonts.cdnfonts.com/css/friz-quadrata" rel="stylesheet">
+      <style>
+         @import url('http://fonts.cdnfonts.com/css/friz-quadrata');
+      </style>
+   </head>
+   <body>
+      <div id="wrapper">
+         <header>
+            <h1>Casey Bement - Software Developer</h1>
+         </header>
+         <nav id="navbar">
+            <ul>
+               <li id="homebutton"><a href="index.html">Home</a></li>
+               <li id="aboutmebutton"><a href="contact.html">Contact</a></li>
+               <li id="portfoliobutton"><a href="Portfolio.html">Portfolio</a></li>
+               <li id="resumebutton"><a href="resume.html">Resume</a></li>
+               <li id="interestsbutton"><a href="interests.html">Interests</a></li>
+            </ul>
+         </nav>
+         <main id="hero">
+            <h2>Why should you contact me?</h2>
+            <table>
+               <thead>
+                  <tr>
+                     <th>Employers</th>
+                     <td>I am looking for a company that has strong management team with relevant experience,
+                        defensible technology, a useful product, and a large market.<br>
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Critique</th>
+                     <td>Feel free to let me know what you think of this page. Please leave a date in the description.<br>
+                     </td>
+                  </tr>
+               </thead>
+            </table>
+            <p class="formdescription">All forms are required to submit.</p>
+            <form class="contactform" method="post" action="https://itsd.cvtc.edu/web1/contact.php">
+               <label for="name">*Name:</label>
+               <input required type="text" name="name" id="name">
+               <label for="email">*Email:</label>
+               <input required type="email" name="email" id="email" placeholder="bementcw@gmail.com">
+               <label for="phone_number">*Phone number:</label>
+               <input type="tel" name="phone_number" id="phone_number" pattern="{3}-[0-9]{2}-[0-9]{3}">
+               <label for="message">*Message:</label>
+               <textarea required name="message" id="message"></textarea>
+               <input type="submit" value="Submit">
+            </form>
+         </main>
+         <footer>
+            Copyright &copy; 2021 Casey Bement<br>
+            <a href="mailto:bementcw@gmail.com">bementcw@gmail.com</a>
+         </footer>
+      </div>
+   </body>
+</html>
